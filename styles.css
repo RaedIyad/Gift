@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+.failure-page {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.failure-icon {
+  font-size: 5rem;
+  color: red;
+}
+.Gift {
+  
+  color: #333;
+}
+.gift2 {
+  
+  color:green;
+  
+}
+.cv{
+  size: 2;
+}

